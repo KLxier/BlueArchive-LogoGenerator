@@ -13,6 +13,9 @@
   "fallback-font": "Fallback 字体：",
   "glow": "未来荧黑",
   "github-repo": "GitHub 仓库",
-  "subtitle-toggle": "切换副标题",
+  "subtitle-toggle": "副标题",
+  "transparent-background": "透明背景",
+  "swap-colors": "互换颜色",
+  "dark-mode": "深色模式",
   "subtitle": "副标题"
 }
