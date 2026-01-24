@@ -12,5 +12,5 @@ export default defineConfig({
       },
     },
   },
-  base: "/bluearchive-logo/"
+  base: "/BlueArchive-LogoGenerator/"
 });
