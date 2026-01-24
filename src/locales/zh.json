@@ -15,11 +15,11 @@
   "glow": "未来荧黑",
   "github-repo": "GitHub 仓库",
   "subtitle-toggle": "副标题",
-  "swap-colors": "互换颜色",
+  "swap-colors": "字体颜色互换",
   "dark-mode": "深色模式",
   "main-color-dark-relative-mode": "使右侧颜色在深色模式下反转",
   "subtitle": "副标题",
-  "main-color": "右侧颜色",
-  "accent-color": "左侧颜色",
+  "main-color": "右侧字体&光环颜色",
+  "accent-color": "左侧字体颜色",
   "reset-colors": "重置颜色"
 }
