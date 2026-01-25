@@ -31,7 +31,7 @@ export default class LogoCanvas {
   private textWidthR = 0;
   private textWidthST = 0;
   private graphOffset = graphOffset;
-  private accentColor = '#128AFA';
+  private accentColor = '#00D2FE';
   private mainColor = '#2B2B2B';
   private transparentBg = false;
   private scaleLevel = 1;
@@ -247,8 +247,8 @@ export default class LogoCanvas {
       this.draw();
     });
     document.querySelector('#reset-colors')!.addEventListener('click', () => {
-        accentColorInput.value = "#128AFA";
-        this.accentColor = "#128AFA";
+        accentColorInput.value = "#00D2FE";
+        this.accentColor = "#00D2FE";
         mainColorInput.value = "#2B2B2B";
         this.mainColor = "#2B2B2B";
         this.draw();
@@ -378,7 +378,7 @@ export default class LogoCanvas {
   }
   resetColor() {
       this.mainColor = "#2B2B2B";
-      this.accentColor = "#128AFA";
+      this.accentColor = "#00D2FE";
       this.draw();
   }
 }
