@@ -9,7 +9,7 @@ export default async (content: string = 'A', scaleLevel: number = 1) => {
   // const loadingSwitch = document.querySelector('#loading-switch') as HTMLInputElement;
   // loadingSwitch.checked = true;
   await document.fonts.load(
-    `${settings.fontSize * scaleLevel}px RoGSanSrfStd-Bd, GlowSansSC-Normal-Heavy_diff`,
+    `${settings.fontSize * scaleLevel}px RoGSanSrfStd-Bd, GlowSansSC-Normal-Bold`,
     content
   );
   // loadingSwitch.checked = false;
