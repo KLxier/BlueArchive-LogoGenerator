@@ -14,3 +14,10 @@
   font-display: swap;
   unicode-range: U+4E00-9FFF;
 }
+@font-face {
+  font-family: GlowSansSC-Normal-Bold;
+  src: url("./GlowSansSC-Normal-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
