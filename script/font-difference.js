@@ -20,14 +20,14 @@ const G2List = G2font.find({
     return p;
   } else return p.concat(c.unicode);
 }, []);
-const GlowFont = Font.create(fs.readFileSync('../public/GlowSansSC-Normal-Bold.otf'), {
+const GlowFont = Font.create(fs.readFileSync('../public/GlowSansSC-Normal-Heavy_diff.ttf'), {
   type: 'otf',
 });
 const GlowList = Object.keys(GlowFont.get().cmap);
 const differenceList = GlowList.filter((c) => !G2List.includes(parseInt(c)));
 console.assert(differenceList.includes(String(parseInt('0x531a'))));
 new Fontmin()
-  .src('../public/GlowSansSC-Normal-Bold.otf')
+  .src('../public/GlowSansSC-Normal-Heavy_diff.ttf')
   .use(Fontmin.otf2ttf())
   .use(
     Fontmin.glyph({
@@ -35,5 +35,5 @@ new Fontmin()
       hinting: false,
     })
   )
-  .dest('../public/GlowSansSC-Normal-Bold.otf')
+  .dest('../public/GlowSansSC-Normal-Heavy_diff.ttf')
   .run();
