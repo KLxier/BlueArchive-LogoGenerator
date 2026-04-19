@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: GlowSansSC-Normal-Bold;
-  src: url("./GlowSansSC-Normal-Bold.otf");
+  src: url('./GlowSansSC-Normal-Bold.otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
